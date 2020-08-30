@@ -1,24 +1,87 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 60.25%;
 }
 body{
   background-color: #f4f4f4;
   color: #333;
-  text-align: center;
+  line-height: 1.5;
+  font-size: 1.6rem;
 }
-
-h2{
-  font-size: 24px;
+.container{
+  max-width: 140rem;
+  width: 80%;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  color: #444;
+}
+.header{
+  height: 6rem;
+  padding: 1rem 0;
+  background-color: #F0F4F7;
+  border-bottom: 1px solid #ccc;
+}
+.logo{
+  font-size: 3rem;
+  font-weight: 500;
+}
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu{
+  display: flex;
+  list-style: none;
+}
+.items:not(:last-child){
+  margin-right: 2rem;
+}
+.links{
+  font-size: 1.5rem;
   font-weight: 400;
-  display: block;
-  background-color: orangered;
-  color: #fff;
-  padding: 20px;
+  padding: 0.75rem 0.90rem;
+  color: #777;
+  transition: color .4s ease;
 }
-p{
-  margin-top: 20px;
-  background-color: #ccc;
-  padding: 20px;
-  /* width: 40%; */
+.links:hover{
+  color: #222;
+}
+.right-menu{
+  font-size: 1.4rem;
+}
+.right-menu a:not(:last-child){
+  margin-right: 2rem;
+}
+.contact, .sign-in{
+  font-weight: 300;
+  font-size: 1.4rem;
+  transition: color .4s ease;
+}
+.contact:hover,
+.sign-in:hover{
+  color: #222;
+}
+.dwn{
+  border: 1px solid #FF3E00;
+  border-radius: 2px;
+  padding: .7rem .9rem;
+  transition: all .4s ease;
+}
+.dwn:hover{
+  background-color: #FF3E00;
+  color: #fff;
+}
+.show-case{
+  height: calc(100vh - 6rem);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(78, 87, 56, 0.7)), url('../img/bg.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
