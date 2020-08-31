@@ -124,3 +124,20 @@ a{
 .cta:hover{
   background-color: #FF3E00;
 }
+
+/* about section */
+.about{
+  background-color: #F0F4F7;
+  color: #333;
+  margin-top: 4rem;
+}
+.about-content h1{
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 400;
+}
+.about-content p{
+  line-height: 1.6;
+  background-color: #ddd;
+  padding: 2rem;
+}
