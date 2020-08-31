@@ -80,8 +80,48 @@ a{
 }
 .show-case{
   height: calc(100vh - 6rem);
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(78, 87, 56, 0.7)), url('../img/bg.jpeg');
+  background-image: linear-gradient(to right bottom, rgba(28, 00, 40, 0.8), rgba(78, 87, 56, 0.7)), url('../img/bg.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.inner-showCase{
+  height: 70vh;
+  color: #f7f7f7;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  transform: translate(-40% -35%);
+}
+
+.inner-showCase h1{
+  margin-bottom: 1.75rem;
+  font-size: 3.5rem;
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+}
+.inner-showCase p{
+  width: 80%;
+  margin-bottom: 4rem;
+  line-height: 1.6;
+  font-size: 1.7rem;
+  font-weight: 300;
+  font-style: italic;
+}
+.book, .cta{
+  display: inline-block;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #f4f4f4;
+  border: 1px solid #FF3E00;
+  border-radius: 2px;
+  padding: .8rem 1.5rem;
+  transition: all .4s ease-in;
+}
+.book{
+  margin-right: 1.5rem;
+}
+.book:hover, 
+.cta:hover{
+  background-color: #FF3E00;
 }
