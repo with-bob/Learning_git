@@ -80,14 +80,14 @@ a{
 }
 .show-case{
   height: calc(100vh - 6rem);
-  background-image: linear-gradient(to right bottom, rgba(28, 00, 40, 0.8), rgba(78, 87, 56, 0.7)), url('../img/bg.jpeg');
+  background-image: linear-gradient(to right bottom, rgba(6, 49, 131, 0.8), rgba(52, 107, 42, 0.7)), url('../img/bg.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .inner-showCase{
   height: 70vh;
-  color: #f7f7f7;
+  color: #fff;
   position: absolute;
   top: 40%;
   left: 35%;
