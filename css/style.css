@@ -59,12 +59,12 @@ a{
 .right-menu a:not(:last-child){
   margin-right: 2rem;
 }
-.contact, .sign-in{
+.contact-cta, .sign-in{
   font-weight: 300;
   font-size: 1.4rem;
   transition: color .4s ease;
 }
-.contact:hover,
+.contact-cta:hover,
 .sign-in:hover{
   color: #222;
 }
